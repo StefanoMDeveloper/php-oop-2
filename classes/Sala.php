@@ -1,11 +1,14 @@
 <?php
-
 class Sala{
 
-    public function __construct($_nome,$_nPosti,$_schermo){
+    public $nome;
+    public $capienza;
+    public $schermo;
+
+    public function __construct($_nome,$_capienza,$_schermo){
 
         $this->effects = $_nome;
-        $this->effects = $_nPosti;
+        $this->effects = $_capienza;
         $this->effects = $_schermo;
     }
 
